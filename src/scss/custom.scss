@@ -1,0 +1,110 @@
+$color-primary-100: #000000;
+$color-primary-200: #F8F8F8;
+$color-primary-300: #DF4E3C;
+
+$color-secondary-100: #AEAEAE;
+$color-secondary-200: #8D8D8D;
+$color-secondary-300: #BDBDBD;
+$color-secondary-400: #C4C4C4;
+$color-secondary-500: #FFFFFF;
+$color-secondary-600: #959595;
+$color-secondary-700: #507A36;
+
+$font-family-primary: "NotoSans", sans-serif;
+$font-family-secondary: "Poppins", sans-serif;
+
+$f-sz-h1: 50px;
+$f-sz-h2: 50px;
+$f-sz-h3: 30px;
+$f-sz-h4: 25px;
+$f-sz-h5: 20px;
+$f-sz-h6: 17px;
+
+$f-sz-btn: 15px;
+$f-sz-btn-lg: 20px;
+
+$f-sz-select-btn: 15px;
+$f-sz-select-list: 13px;
+
+$font-family-sans-serif: $font-family-primary;
+
+$container-max-widths: (
+    xxl: 1264px
+);
+
+$spacer: 1rem;
+$spacers: (
+  4: $spacer * 1.25,
+);
+
+$navbar-padding-y: 18px;
+
+$nav-link-padding-x: 20px;
+$nav-link-padding-y: 0;
+$nav-link-font-size: 15px;
+$nav-link-color: $color-primary-200;
+$nav-link-hover-color: $nav-link-color;
+
+
+$h1-font-size: 50px;
+$h2-font-size: 50px;
+$h4-font-size: 25px;
+$h6-font-size: 17px;
+
+$headings-font-weight: 700;
+$headings-color: $color-secondary-100;
+
+$paragraph-margin-bottom: 0;
+
+$light: $color-primary-200;
+$black: $color-primary-100;
+$danger: $color-primary-300;
+
+$btn-padding-y: 11px;
+$btn-font-size: $f-sz-btn;
+$btn-border-radius: 15px;
+$btn-font-weight: 400;
+$btn-border-width: 2px;
+
+
+$btn-padding-y-lg: 11px;
+$btn-font-size-lg: $f-sz-btn-lg;
+$btn-font-weight: 500;
+$btn-border-width: 2px;
+$btn-border-radius-lg: 15px;
+
+$offer-card-bg: $color-secondary-500;
+
+
+$offer-card-label-f-sz: 12px;
+$offer-card-price-f-sz: 20px;
+
+$form-check-input-width: 1em;
+$form-check-label-color: $color-secondary-200;
+$form-check-label-cursor: pointer;
+
+$form-check-input-bg: transparent;
+$form-check-input-border: 2px solid $color-secondary-200;
+$form-check-input-border-radius: 3px;
+
+$form-check-input-checked-bg-color: $color-primary-300;
+
+$accordion-padding-y: 1.5rem;
+$accordion-padding-x: 1.5rem;
+$accordion-color: $color-primary-100;
+$accordion-bg: transparent;
+$accordion-border-width: 0;
+$accordion-border-radius: 0;
+
+$accordion-body-padding-y: 0;
+$accordion-body-padding-x: 2.5rem;
+
+$accordion-button-active-bg: transparent;
+$accordion-button-active-color: $color-primary-300;
+
+$accordion-button-focus-box-shadow: none;
+
+$accordion-icon-transform: none;
+
+$accordion-button-icon: url("../img/addIcon.svg");
+$accordion-button-active-icon: url("../img/minusicon.svg");
