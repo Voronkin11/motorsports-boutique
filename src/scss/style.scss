@@ -48,7 +48,9 @@
 
     @include media-breakpoint-up(lg) {
         background: url("../img/main-bg.jpg");
-                background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
 
